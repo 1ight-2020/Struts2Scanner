@@ -1,0 +1,2 @@
+module Struts2Scanner
+
