@@ -89,6 +89,7 @@ var (
 	}
 )
 
+//goroutine数
 var ThreadNum = 50
 
 var Client = &sync.Pool{
