@@ -89,7 +89,7 @@ var (
 	}
 )
 
-var ThreadNum = 5
+var ThreadNum = 50
 
 var Client = &sync.Pool{
 	New: func() (interface{}){
