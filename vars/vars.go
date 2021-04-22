@@ -11,7 +11,6 @@ var (
 	URL string
 	NAME string
 	FILE string
-	NUM int
 )
 
 var (
