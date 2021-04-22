@@ -18,7 +18,6 @@ func init()  {
 	flag.StringVar(&vars.URL,"u","","测试目标URL")
 	flag.StringVar(&vars.NAME,"n","","漏洞名称（执行shell）")
 	flag.StringVar(&vars.FILE, "f", "", "导入.txt文件批量检测")
-	flag.IntVar(&vars.NUM, "i", 1, "自定义协程数")
 }
 
 func main()  {
